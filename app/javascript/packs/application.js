@@ -7,6 +7,7 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+//"..checked,..//memo"を使うときはpacksの前のファイルのjavascriptのファイルの中に記述する。
 require("../checked")
 require("../memo")
 
