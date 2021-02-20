@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   #Basic認証の記載
   before_action :basic_auth
 
-
+  
   private
 
   def basic_auth
